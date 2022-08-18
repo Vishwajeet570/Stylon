@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% ;
+    text-align: center;
+    color: red;
+    margin: 40px 0 60px;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    outline:dotted green;
+    
+}
+
+   
+.gallery1{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+width: 100% !important;
+}
+.gallery1 img{
+    width: 360px;
+    height: 250px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery1 img:hover{
+    filter: grayscale(0);
+    transform: scaleX(-1);
+}

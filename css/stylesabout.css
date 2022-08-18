@@ -1,0 +1,125 @@
+#aboutus {
+  background-color: rgb(254, 255, 249);
+  height: 663px;
+  width: auto;
+}
+body {
+  background-color: white;
+}
+#aboutus img {
+  width: 100%;
+  height: 350px;
+}
+#aboutus b {
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(83, 255, 30);
+  color: white;
+  transform: rotateY(180deg);
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0px 40px 11px;
+  height: 100%;
+  background-color: #bbbbbb;
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  width: 100% !important;
+  height: 100% !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.flip-card-back button:hover {
+  background-color: rgb(241, 6, 6);
+}
+.flip-card-back button {
+  background-color: black;
+}
+.flip-card-back a {
+  color: white;
+  font-size: 20px;
+}
+.bookbb {
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 1;
+  background-color: rgb(199, 22, 190);
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.back img {
+  height: 50px;
+  width: 90px;
+  float: left;
+}
+.back img:hover {
+  filter: invert();
+}
+.tex {
+  margin-top: 4px;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  z-index: 2;
+  color: rgb(0, 0, 0);
+}
+.shop-head {
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+.w-100 {
+  height: 400px;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #7e7474;
+}

@@ -1,0 +1,124 @@
+body {
+  background-size: auto;
+}
+
+.main {
+  position: sticky;
+  top: 0;
+  padding-bottom: 3px;
+  text-align: center;
+  width: 100%;
+  background-color: #f1a90c;
+  border-radius: 61px;
+  z-index: 5;
+}
+.border {
+  box-sizing: content-box;
+  width: 100px;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  background: deeppink;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 400px;
+}
+.bg {
+  outline-style: solid;
+  outline-color: #801750e8;
+  padding: 5px;
+  margin: 9px 90px 5px 90px;
+  background-color: white;
+}
+.btn {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  float: right;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: -26px;
+  margin-right: 83px;
+  padding: 10px 40px 10px 40px;
+  border: 2px solid green;
+  background-color: #0a72b8;
+}
+.btn:hover {
+  background-color: rgb(8, 238, 8);
+}
+h4 {
+  padding-left: 400px;
+}
+.box {
+  background-color: yellow;
+}
+.checked {
+  color: orange;
+}
+.product {
+  width: 15%;
+  height: 100px;
+  background-color: rgb(9, 119, 245);
+  display: flex;
+  justify-content: center;
+
+  border-radius: 10px;
+}
+.product a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  margin-top: 16px;
+}
+.pro {
+  display: flex;
+  flex-direction: row;
+}
+.product-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: rgb(123, 226, 226);
+  width: 15%;
+  height: 80px;
+
+  border: 1px solid black;
+}
+.product-item a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-family: "Festive", cursive;
+  font-family: "Lobster", cursive;
+}
+.product-item a:hover {
+  color: rgb(228, 3, 3);
+}
+.rating-head {
+  font-size: 30px;
+  text-align: center;
+}
+.rating-star {
+  font-size: 20px;
+  text-align: center;
+}
+.cashback {
+  text-align: center;
+  background-color: rgb(59, 240, 4);
+  padding: 20px;
+}
+.rating img {
+  height: 208px;
+  width: 273px;
+  position: absolute;
+  padding-left: 290px;
+  top: 133px;
+  z-index: 5;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
